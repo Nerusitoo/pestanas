@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Citas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Reserva tu Cita</h1>
+        <p>Agenda fácilmente tu cita en línea</p>
+    </header>
+
+    <main>
+        <form id="reservaForm">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" required>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" required>
+        
+            <label for="fecha">Fecha de la cita:</label>
+            <input type="date" id="fecha" required>
+        
+            <label for="hora">Hora de la cita:</label>
+            <input type="time" id="hora" required>
+        
+            <button type="submit">Reservar</button>
+        </form>
+        <p id="mensaje"></p>        
+    </main>
+
+    <footer>
+        <p>Negocio de Pestañas - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
